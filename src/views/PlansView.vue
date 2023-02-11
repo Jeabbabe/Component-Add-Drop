@@ -318,13 +318,13 @@
             <v-spacer></v-spacer>
 
             <v-btn
-              :icon="show1 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-              @click="show1 = !show1"
+              :icon="show7 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+              @click="show7 = !show7"
             ></v-btn>
           </v-card-actions>
 
           <v-expand-transition>
-            <div v-show="show1">
+            <div v-show="show7">
               <v-divider></v-divider>
 
               <v-card-text>
@@ -353,13 +353,13 @@
             <v-spacer></v-spacer>
 
             <v-btn
-              :icon="show2 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-              @click="show2 = !show2"
+              :icon="show8 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+              @click="show8 = !show8"
             ></v-btn>
           </v-card-actions>
 
           <v-expand-transition>
-            <div v-show="show2">
+            <div v-show="show8">
               <v-divider></v-divider>
 
               <v-card-text>
@@ -388,13 +388,13 @@
             <v-spacer></v-spacer>
 
             <v-btn
-              :icon="show3 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
-              @click="show3 = !show3"
+              :icon="show9 ? 'mdi-chevron-up' : 'mdi-chevron-down'"
+              @click="show9 = !show9"
             ></v-btn>
           </v-card-actions>
 
           <v-expand-transition>
-            <div v-show="show3">
+            <div v-show="show9">
               <v-divider></v-divider>
 
               <v-card-text>
@@ -417,6 +417,9 @@ const show3 = ref(false);
 const show4 = ref(false);
 const show5 = ref(false);
 const show6 = ref(false);
+const show7 = ref(false);
+const show8 = ref(false);
+const show9 = ref(false);
 </script>
 
 <style scoped>
