@@ -375,7 +375,7 @@
           ><v-card-title
             style="text-align: center; font-weight: bold; font-size: x-large"
           >
-            มนุษย์ สังคม เทคโนโลยีและสิ่งแวดล้อม</v-card-title
+            มนุษย์ สังคม เทคโนโลยี<br />และสิ่งแวดล้อม</v-card-title
           >
           <v-card-subtitle style="text-align: center; font-size: larger"
             >10700105</v-card-subtitle
